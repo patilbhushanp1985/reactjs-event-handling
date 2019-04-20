@@ -47,6 +47,7 @@ export class CustomButtonComponent extends React.Component {
         
         /* 
         //This will not going to trigger change event by react JS lib
+        //If still want to used then we need to used forceUpdate method from life cycle
         this.state = {
             userName : this.props.userInfo.username,
             userFirstName : 'Bhushan',
